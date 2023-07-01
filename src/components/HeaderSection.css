@@ -1,0 +1,23 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: flex-start;
+    padding: 15px;
+    height: 30vh;
+    color: white;
+    background-image: url('/public/trafficjam.bmp') ; /* fallback */
+    background-image: linear-gradient(to top, rgba(0, 0, 0, 0.95), transparent) ,url('/public/trafficjam.bmp');
+}
+
+.hero-text {
+    font-size: 24px;
+
+
+
+}
+
+.secondary-text {
+    font-size: 12px;
+
+}
